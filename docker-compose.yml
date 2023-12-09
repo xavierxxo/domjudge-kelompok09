@@ -35,3 +35,4 @@ services:
     working_dir: ${PWD}
     environment:
       - PROJECT_DIR=${PWD}
+    mem_limit: 512
